@@ -1,0 +1,120 @@
+.shop_store {
+    margin: 20px;
+    justify-content: center;
+}
+
+.button_add {
+    float: left
+}
+
+.error {
+    color: red;
+}
+
+.notify {
+    justify-content: center;
+}
+
+.list-shop-custom {
+    border-radius: 20px !important;
+}
+
+.shop-list-parent {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.card-header-shop-list-custom {
+    display: flex;
+    justify-content: space-around;
+}
+
+.delete-shop {
+    color: red;
+}
+
+.list-shop-custom-in-product {
+    outline: solid 5px #7dee99;
+    transition: outline 0.2s linear;
+    margin: 0.5em; /* Increased margin since the outline expands outside the element */
+}
+
+.list-shop-custom-in-product:hover {
+    outline-width: 10px;
+}
+
+.custom-name-shop {
+    display: flex;
+    justify-content: center;
+}
+
+.product-custom-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-price-custom {
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: solid;
+}
+
+.product-border-custom {
+    border: solid 3px;
+    border-radius: 15px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.create-product {
+    float: right;
+    margin-right: 20px;
+}
+
+.popup-add-order {
+    z-index: 10;
+    position:fixed !important;
+    top: 26% !important;
+    left: 30% !important;
+    with: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    visibility: hidden;
+}
+
+.popup-add-product {
+    z-index: 10;
+    position:fixed !important;
+    top: 26% !important;
+    left: 30% !important;
+    with: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    visibility: hidden;
+}
+.popup-add-open {
+    visibility: initial !important;
+    transition: 0.3s;
+}
+
+.popup-background{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    background-color: black;
+    top: 0px;
+    left: 0px;
+    opacity: 0.3;
+    visibility: hidden;
+}
+
+.custom-btn {
+    float: right;
+}
+
+.transition-off {
+    transition: all 0s ease !important;
+}
+
